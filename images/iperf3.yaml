@@ -3,6 +3,7 @@ contents:
     - https://dl-cdn.alpinelinux.org/alpine/edge/main
   packages:
     - alpine-baselayout
+    - alpine-release
     - iperf3
 
 entrypoint:
