@@ -1,0 +1,9 @@
+contents:
+  repositories:
+    - https://dl-cdn.alpinelinux.org/alpine/edge/main
+  packages:
+    - alpine-baselayout
+    - iperf3
+
+entrypoint:
+  command: iperf3
