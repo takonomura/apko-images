@@ -28,3 +28,7 @@ jobs:
       - name: Build iperf3
         run: |
           apko publish images/iperf3.yaml ghcr.io/takonomura/iperf3:latest
+
+      - name: Build ip
+        run: |
+          apko publish images/ip.yaml ghcr.io/takonomura/ip:latest

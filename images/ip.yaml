@@ -1,0 +1,13 @@
+contents:
+  repositories:
+    - https://dl-cdn.alpinelinux.org/alpine/edge/main
+  packages:
+    - alpine-baselayout
+    - alpine-release
+    - busybox
+    - busybox-binsh
+    - iproute2
+    - nftables
+
+entrypoint:
+  command: iperf3
