@@ -8,6 +8,3 @@ contents:
     - busybox-binsh
     - iproute2
     - nftables
-
-entrypoint:
-  command: iperf3
