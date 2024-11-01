@@ -15,11 +15,11 @@ jobs:
 
       - name: Install apko
         run: |
-          curl -sSLO "https://github.com/chainguard-dev/apko/releases/download/v0.19.7/apko_0.19.7_linux_amd64.tar.gz"
-          echo a036d0061ae223a1531cac6dd3e3280440c89faf4eedaf5a1ff03237a2e8f1da apko_0.19.7_linux_amd64.tar.gz | sha256sum -c -
-          tar --strip-components=1 -xf apko_0.19.7_linux_amd64.tar.gz apko_0.19.7_linux_amd64/apko
+          curl -sSLO "https://github.com/chainguard-dev/apko/releases/download/v0.13.2/apko_0.13.2_linux_amd64.tar.gz"
+          echo 95e3f21e01538de4438d67d3c3c841bdcc24fa2eb7b4b1c95265c6d7bfd4dc9d apko_0.13.2_linux_amd64.tar.gz | sha256sum -c -
+          tar --strip-components=1 -xf apko_0.13.2_linux_amd64.tar.gz apko_0.13.2_linux_amd64/apko
           mv apko /usr/local/bin/
-          rm apko_0.19.7_linux_amd64.tar.gz
+          rm apko_0.13.2_linux_amd64.tar.gz
 
       - name: Login to GitHub Container Registry
         run: |
