@@ -6,6 +6,9 @@ contents:
     - alpine-release
     - bird
 
+archs: 
+- amd64
+
 entrypoint:
   command: bird
 cmd: -f
