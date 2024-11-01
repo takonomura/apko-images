@@ -32,7 +32,3 @@ jobs:
       - name: Build ip
         run: |
           apko publish images/ip.yaml ghcr.io/takonomura/ip:latest
-
-      - name: Build bird
-        run: |
-          apko publish images/bird.yaml ghcr.io/takonomura/bird:latest
