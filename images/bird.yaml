@@ -8,6 +8,9 @@ contents:
     - bird
     - libssh
 
+archs:
+- x86_64
+
 entrypoint:
   command: bird
 cmd: -f
