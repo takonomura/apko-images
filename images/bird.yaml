@@ -8,7 +8,6 @@ contents:
     - alpine-baselayout
     - alpine-release
     - bird
-    - libssh
 
 entrypoint:
   command: bird

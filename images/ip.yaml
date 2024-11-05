@@ -6,7 +6,5 @@ contents:
   packages:
     - alpine-baselayout
     - alpine-release
-    - busybox
-    - busybox-binsh
     - iproute2
     - nftables
